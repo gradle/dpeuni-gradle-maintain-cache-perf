@@ -86,11 +86,11 @@ drwxr-xr-x  27 adayal  wheel    864 Oct 25  2023 lib
 ---
 ## Identify Local Caching Issues using Same Location
 
-Let's run script 02 to identify local caching issues by running commands in the same location.
+Let's run experiment 02 to identify local caching issues by running commands in the same location.
 
 1. Go to the directory where the build validation scripts are installed
 
-2. Run the script in interactive mode: `02-validate-local-build-caching-same-location.sh -i`
+2. Run the script in interactive mode: `./02-validate-local-build-caching-same-location.sh -i`
 
 3. Press the `<enter>` key to start the experiment as the following prompt indicates:
 
