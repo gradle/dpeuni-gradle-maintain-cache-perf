@@ -10,7 +10,7 @@ This is a hands-on exercise to go along with the
 [Maintaining Optimal Gradle Build Cache Performance](https://dpeuniversity.gradle.com/app/courses/4fcbecbc-7cff-449a-a509-07cf70403f0c)
 training module. In this exercise you will go over the following:
 
-* Using build validation scripts to identify build caching issues
+* Using the Develocity Build Validation Scripts to identify build caching issues
 
 ---
 ## Prerequisites
@@ -49,7 +49,7 @@ Once confirmed you will see the following message and you can close the browser 
 ## Clone this Repository
 
 This repository contains the project with build caching issues. We will use the
-build validation scripts to identify these issues and address them.
+Develocity Build Validation Scripts to identify these issues and address them.
 
 1. Clone this repository in a new directory location on your machine
 
@@ -57,15 +57,15 @@ In the rest of this README the location will be referred to as `/sample-project`
 Whenever you see `/sample-project`, replace it with the location you are using.
 
 ---
-## Downloading Build Validation Scripts
+## Downloading the Develocity Build Validation Scripts
 
-1. Open the [build validation script installation instructions](https://github.com/gradle/gradle-enterprise-build-validation-scripts/blob/main/Gradle.md#installation)
+1. Open the [Develocity Build Validation Scripts installation instructions](https://github.com/gradle/gradle-enterprise-build-validation-scripts/blob/main/Gradle.md#installation)
 
 2. Copy the installation command
 
 3. Open a terminal, create a directory for the installation location and run the command there
 
-4. Go to the directory with the scripts, you should see contents similar to:
+4. Go to the directory containing the Develocity Build Validation Scripts, you should see contents similar to:
 
 ```bash
 $ ls -ltr
@@ -88,7 +88,7 @@ drwxr-xr-x  27 adayal  wheel    864 Oct 25  2023 lib
 
 Let's run experiment 02 to identify local caching issues by running commands in the same location.
 
-1. Go to the directory where the build validation scripts are installed
+1. Go to the directory where the Develocity Build Validation Scripts are installed
 
 2. Run the script in interactive mode: `./02-validate-local-build-caching-same-location.sh -i`
 
@@ -262,11 +262,11 @@ You should see no issues found this time.
 ---
 ## Identify Local Caching Issues using Different Locations
 
-Each build validation script experiment can identify different kinds of build caching issues.
+Each experiment can identify different kinds of build caching issues.
 Using experiment 02 we identified and fixed one issue. Now let's run the next
 experiment and see if it identifies any other issues.
 
-1. Go to the directory where the build validation scripts are installed
+1. Go to the directory where the Develocity Build Validation Scripts are installed
 
 2. You can run the 03 script in interactive mode, however since it is similar to
    the 02 script, we can run it using the command as follows:
