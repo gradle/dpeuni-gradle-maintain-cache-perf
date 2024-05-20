@@ -18,6 +18,17 @@ training module. In this exercise you will go over the following:
 * Finished going through the relevant sections in the training course
 
 ---
+## Clone this Repository
+
+This repository contains the project with build caching issues. We will use the
+Develocity Build Validation Scripts to identify these issues and address them.
+
+1. Clone this repository in a new directory location on your machine
+
+In the rest of this README the location will be referred to as `/sample-project`.
+Whenever you see `/sample-project`, replace it with the location you are using.
+
+---
 ## Develocity Authentication
 
 We will use the DPE University Develocity instance as the remote cache.
@@ -44,17 +55,6 @@ Once confirmed you will see the following message and you can close the browser 
 <p align="center">
 <img width="75%" height="75%" src="https://github.com/gradle/build-tool-training-exercises/assets/120980/1711c9db-814c-4df1-9d18-42fe5d1b82f8">
 </p>
-
----
-## Clone this Repository
-
-This repository contains the project with build caching issues. We will use the
-Develocity Build Validation Scripts to identify these issues and address them.
-
-1. Clone this repository in a new directory location on your machine
-
-In the rest of this README the location will be referred to as `/sample-project`.
-Whenever you see `/sample-project`, replace it with the location you are using.
 
 ---
 ## Downloading the Develocity Build Validation Scripts
