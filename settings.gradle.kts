@@ -17,6 +17,8 @@ gradleEnterprise {
         capture {
             isTaskInputFiles = true
         }
+        tag("dpeuni-gradle-maintain-cache-perf")
+        value("Course", "Maintaining Optimal Gradle Build Cache Performance")
     }
 }
 
