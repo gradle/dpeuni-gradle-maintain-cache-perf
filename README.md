@@ -59,7 +59,7 @@ Once confirmed you will see the following message and you can close the browser 
 ---
 ## Downloading the Develocity Build Validation Scripts
 
-1. Open the [Develocity Build Validation Scripts installation instructions](https://github.com/gradle/gradle-enterprise-build-validation-scripts/blob/main/Gradle.md#installation)
+1. Open the [Develocity Build Validation Scripts installation instructions](https://github.com/gradle/develocity-build-validation-scripts/blob/main/Gradle.md#installation)
 
 2. Copy the installation command
 
